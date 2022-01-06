@@ -1,1 +1,3 @@
-# sql_skills
+# SQL query training
+
+
