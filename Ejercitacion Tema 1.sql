@@ -9,8 +9,8 @@ ALTER TABLE curso ADD cupo INT;
 
 INSERT INTO `curso` VALUES (101,'Algoritmos','Algoritmos y Estructura de datos','Mañana',35);
 INSERT INTO `curso` VALUES (102,'Matematica Discreta','','Tarde',30);
-INSERT INTO `curso` VALUES (104,'Aprendiendo desarrollo de software','Tarde',25);
-INSERT INTO `curso` VALUES (101,'Java para todos','Aprendiendo desarrollo de software','Tarde',25);
+INSERT INTO `curso` VALUES (104,'Aprendiendo desarrollo de software','Tarde',25); #ERROR: Nombre no puede ser nulo
+INSERT INTO `curso` VALUES (101,'Java para todos','Aprendiendo desarrollo de software','Tarde',25); #ERROR: Primary Key repetida
 
 UPDATE curso SET cupo = 25;
 
